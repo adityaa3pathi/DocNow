@@ -17,7 +17,12 @@ export function Navbar({ onSignIn, onNavigateToPackages, onNavigateToTests }: Na
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
         <div className="flex items-center">
+          <button
+            onClick={() => { }}
+              >
+              
           <span className="text-2xl font-bold" style={{ color: '#4b2192' }}>DOCNOW</span>
+          </button>
         </div>
 
         {/* Desktop Navigation Links */}
