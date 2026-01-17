@@ -7,9 +7,10 @@ interface NavbarProps {
   onSignIn?: () => void;
   onNavigateToPackages?: () => void;
   onNavigateToTests?: () => void;
+  onNavigateBack: () => void;
 }
 
-export function Navbar({ onSignIn, onNavigateToPackages, onNavigateToTests }: NavbarProps) {
+export function Navbar({ onSignIn, onNavigateToPackages, onNavigateToTests, onNavigateBack }: NavbarProps) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
@@ -18,10 +19,11 @@ export function Navbar({ onSignIn, onNavigateToPackages, onNavigateToTests }: Na
         {/* Logo */}
         <div className="flex items-center">
           <button
-            onClick={() => { }}
+            className="text-2xl font-bold" style={{ color: '#4b2192' }}
+            onClick={onNavigateBack}
               >
               
-          <span className="text-2xl font-bold" style={{ color: '#4b2192' }}>DOCNOW</span>
+          DOCNOW
           </button>
         </div>
 

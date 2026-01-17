@@ -51,6 +51,7 @@ export default function App() {
     <div className="min-h-screen flex flex-col bg-white">
       <Navbar 
         onSignIn={handleSignIn}
+        onNavigateBack={() => setCurrentPage('home')}
         onNavigateToPackages={() => setCurrentPage('packages')}
         onNavigateToTests={() => setCurrentPage('tests')}
       />
