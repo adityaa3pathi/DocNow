@@ -52,14 +52,14 @@ export function LandingPage({ onNavigateToCart, onNavigateToPackages, onNavigate
   ];
 
   const tests = [
-    { id: 101, name: 'Complete Blood Count (CBC)', price: 350, category: 'Blood Test' },
-    { id: 102, name: 'Lipid Profile', price: 300, category: 'Blood Test' },
+{ id: 101, name: 'Complete Blood Count (CBC)', price: 250, category: 'Blood Test' },
+    { id: 102, name: 'Lipid Profile', price: 350, category: 'Blood Test' },
     { id: 103, name: 'Thyroid Function Test', price: 450, category: 'Hormone Test' },
-    { id: 104, name: 'Liver Function Test', price: 550, category: 'Blood Test' },
+    { id: 104, name: 'Liver Function Test', price: 400, category: 'Blood Test' },
     { id: 105, name: 'Kidney Function Test', price: 400, category: 'Blood Test' },
     { id: 106, name: 'Vitamin D Test', price: 500, category: 'Vitamin Test' },
     { id: 107, name: 'HbA1c (Diabetes)', price: 300, category: 'Diabetes' },
-    { id: 108, name: 'Blood Sugar Fasting', price: 250, category: 'Diabetes' },
+    { id: 108, name: 'Blood Sugar Fasting', price: 200, category: 'Diabetes' },
   ];
 
   const filteredTests = tests.filter(test =>
