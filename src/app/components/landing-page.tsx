@@ -46,7 +46,7 @@ export function LandingPage({ onNavigateToCart, onNavigateToPackages, onNavigate
       name: 'Senior Citizen Package',
       price: 2999,
       tests: 50,
-      description: 'Comprehensive elderly care checkup',
+      description: 'Elderly care checkup',
       icon: Heart,
     },
   ];
