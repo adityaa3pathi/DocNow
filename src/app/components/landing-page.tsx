@@ -223,7 +223,7 @@ export function LandingPage({ onNavigateToCart, onNavigateToPackages, onNavigate
             </div>
             <div className="hidden lg:block">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1706609331851-735d88d20612?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoZWFsdGglMjBkaXNjb3VudCUyMGJhbm5lcnxlbnwxfHx8fDE3Njg2MjM1Mjl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                src="https://images.unsplash.com/photo-1638202993928-7267aad84c31?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Do"
                 alt="Health Discount"
                 className="rounded-2xl shadow-xl w-full h-auto"
               />
